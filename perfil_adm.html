@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+	
+	body{
+		background-image: url(https://intranet.virginiogomez.cl/e_certificado/img/fondo-vg.jpg);
+		text-align: center;
+		font-family: cursive;
+		font-size: 18px;
+		margin:0;
+	}
+	p{
+		color: white;
+	}
+	h1{
+		color: white;
+	}
+
+	footer{
+
+		background-color: grey;
+		text-align: center;
+		width: 100%;
+        bottom: 0;
+        position:fixed;
+
+	}
+</style>
+<head>
+	<title> Ingeniería en Informática </title>
+</head>
+<body>
+<header>
+	<br>
+
+	<img src="https://intranet.virginiogomez.cl/librerias_mt/img/logo-vg.png" width="450">
+	<br>
+	<h1> Información Ingeniero en Informática </h1>
+</header>
+
+<form action="#" method="GET">
+<p> Indique su nombre </p>
+<p><input type="text" name="nombre" id="nombre1" maxlength="50" required></p>
+<p> Indique su número telefonico </p>
+<p><input type="tel" name="telefono" id="telefono1" pattern="[0-9]{9}" maxlength="9" placeholder="975694282" required></p>
+<p><input type="text" name="carrera" value=" Ingeniero de Ejecución en computacion e informática" size="45" disabled></p>
+<p><input type="checkbox" name="" checked>Deseo recibir información sobre la carrera</p>
+<br>
+<br>
+<input type="submit" name="enviar" id="enviar1" value="Pedir Información">
+</form>
+
+<div class="footer1">
+	<footer>
+		<p>2023 INSTITUTO PROFESIONAL VIRGINIO GÓMEZ. TODOS LOS DERECHOS RESERVADOS.</p>
+	</footer>
+</div>
+</body>
+</html>
